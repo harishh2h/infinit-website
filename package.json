@@ -1,9 +1,7 @@
 {
   "name": "infinit",
   "version": "0.1.0",
-
-  "homepage": "http://DharunPrasad.github.io/",
-
+  "homepage": "http://harishh2h.github.io/infinit-website",
   "private": true,
   "dependencies": {
     "@nitric/react-animated-term": "^1.1.0",
