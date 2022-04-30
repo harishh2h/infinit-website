@@ -198,14 +198,13 @@ function App() {
     // Wait for 3 seconds
     setTimeout(() => {
       setIsLoading(false);
-      document.body.style.overflow = "visible"
-
+      // document.body.style.overflow = "visible";
     }, 4000);
   }, []);
 
-  if(isLoading){
-    document.body.style.overflow = "hidden"
-  }
+  // if (isLoading) {
+  //   // document.body.style.overflow = "hidden";
+  // }
   // Custom css for loader
 
   return isLoading ? (
@@ -221,18 +220,17 @@ function App() {
   ) : (
     <div className="main-page h-fit">
       <Navbar />
-      <div className="pt-10">
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Home isLoading={isLoading} />} />
-            <Route path="/technical" element={<Technical events={events} />} />
-            <Route
-              path="/nonTechnical"
-              element={<NonTechnical events={events} />}
-            />
-          </Routes>
-        </BrowserRouter>
-      </div>
+
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home isLoading={isLoading} />} />
+          <Route path="/technical" element={<Technical events={events} />} />
+          <Route
+            path="/nonTechnical"
+            element={<NonTechnical events={events} />}
+          />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
