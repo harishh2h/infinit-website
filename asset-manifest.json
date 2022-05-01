@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/infinit-website/static/css/main.50e1c0b1.css",
-    "main.js": "/infinit-website/static/js/main.88a4245e.js",
-    "static/media/main-logo.png": "/infinit-website/static/media/main-logo.f6658c93c61dd4ee5b1b.png",
-    "static/media/logo.png": "/infinit-website/static/media/logo.30a9a59ca33185789e6b.png",
-    "static/media/site-bg.png": "/infinit-website/static/media/site-bg.8c864f0dc0d9a382fd23.png",
-    "index.html": "/infinit-website/index.html",
-    "main.50e1c0b1.css.map": "/infinit-website/static/css/main.50e1c0b1.css.map",
-    "main.88a4245e.js.map": "/infinit-website/static/js/main.88a4245e.js.map"
+    "main.css": "/nfinit-website/static/css/main.aa99fa70.css",
+    "main.js": "/nfinit-website/static/js/main.9d1ed110.js",
+    "static/media/main-logo.png": "/nfinit-website/static/media/main-logo.f6658c93c61dd4ee5b1b.png",
+    "static/media/logo.png": "/nfinit-website/static/media/logo.30a9a59ca33185789e6b.png",
+    "static/media/site-bg.png": "/nfinit-website/static/media/site-bg.8c864f0dc0d9a382fd23.png",
+    "index.html": "/nfinit-website/index.html",
+    "main.aa99fa70.css.map": "/nfinit-website/static/css/main.aa99fa70.css.map",
+    "main.9d1ed110.js.map": "/nfinit-website/static/js/main.9d1ed110.js.map"
   },
   "entrypoints": [
-    "static/css/main.50e1c0b1.css",
-    "static/js/main.88a4245e.js"
+    "static/css/main.aa99fa70.css",
+    "static/js/main.9d1ed110.js"
   ]
 }
